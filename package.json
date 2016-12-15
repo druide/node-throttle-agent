@@ -1,0 +1,34 @@
+{
+  "name": "throttle-agent",
+  "version": "0.1.0",
+  "description": "Node.js HTTP Agent with throttling",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druide/node-throttle-agent.git"
+  },
+  "keywords": [
+    "http",
+    "agent",
+    "throttling"
+  ],
+  "author": "druide <ingvuil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/druide/node-throttle-agent/issues"
+  },
+  "homepage": "https://github.com/druide/node-throttle-agent#readme",
+  "dependencies": {
+    "@druide/flow-remove-types-register": "^1.0.0",
+    "@druide/rate-limiter": "^1.2.5"
+  },
+  "devDependencies": {
+    "superagent": "^3.2.1"
+  }
+}
